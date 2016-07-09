@@ -50,4 +50,6 @@ If you create a profile in Notepad, enclose the file name in quotation marks to 
 Without the quotation marks, Notepad appends the .txt file name extension to the file, and Windows PowerShell will not recognize it.
 
 for change any command line in powershell you can using one function in powershell profiles
-for change get-process and get-service command line you can using changepsc.ps1
+for change get-process and get-service command line you can using Microsoft.PowerShell_profile.ps1 file 
+
+Similarly, you can change any command line in powershell
