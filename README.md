@@ -1,5 +1,5 @@
-# changepowershellcommand
-change powershell comand line job
+# change powershell command line job 
+
 
 When you add aliases, functions, and variables, you are actually adding them only to the current Windows PowerShell session. If you exit the session or close Windows PowerShell, the changes are lost.
 To retain these changes, you can create a Windows PowerShell profile and add the aliases, functions, and variables to the profiles. The profile is loaded every time that Windows PowerShell starts.
